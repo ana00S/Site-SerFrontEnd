@@ -5,22 +5,25 @@ body{
 }
 
 .hero{
-    background-image: url(imagens/bg-3.jpg);
-    height: 500px;
+    background-image: url(https://img.freepik.com/fotos-gratis/conceito-de-gestao-de-relacionamento-com-o-cliente_23-2150038411.jpg?t=st=1733624030~exp=1733627630~hmac=fd252718f00ec362e1161cd56daf3bfd8303c0a1f16ee3c539d3f98c93d0f536&w=1380);
+    height: 700px;
     background-size: cover;
     background-position: right center;
+    background-repeat: no-repeat;
     color: aliceblue;
     padding-top:1px ;
 }
 .hero-content{
-    margin: 50px auto 0;
+    margin: 200px auto 0;
     width: 80%;
     text-align: center;
+
 }
 
 .hero-content h1{
     font-size: 56px;
-    text-shadow: 2px 2px 2px black;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
     text-transform: uppercase;
 }
 
@@ -49,7 +52,7 @@ body{
 
 .hero nav ul li a{
 
-    background-color: gray;
+    background-color: rgb(54, 54, 54);
     padding: 15px 16px;
     text-decoration: none;
     color: aliceblue;
